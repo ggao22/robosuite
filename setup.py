@@ -17,7 +17,7 @@ setup(
     ],
     install_requires=[
         "numpy>=1.20.0",
-        "numba>=0.52.0,<=0.53.1",
+        "numba>=0.52.0",
         "scipy>=1.2.3",
         "free-mujoco-py==2.1.6",
     ],
