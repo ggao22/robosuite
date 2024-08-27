@@ -3,7 +3,7 @@ from robosuite.models.arenas import Arena
 from robosuite.utils.mjcf_utils import xml_path_completion, array_to_string, string_to_array, \
     new_geom, new_body, new_site
 import robosuite.utils.transform_utils as T
-from collections import Iterable
+from collections.abc import Iterable
 
 
 class MultiTableArena(Arena):
